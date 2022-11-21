@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "637114588577",
+    "project_id": "rentcars-f7701",
+    "storage_bucket": "rentcars-f7701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637114588577:android:5794d352a8efbd21057fe0",
+        "android_client_info": {
+          "package_name": "uk.ac.tees.w9581532.sreenith.rentcars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637114588577-p4l1b9uu3ful3s1gdm41f0g3f3854va4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAyeh5-Vs4EUzOfju53HQlp4UFgPIjbDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637114588577-p4l1b9uu3ful3s1gdm41f0g3f3854va4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

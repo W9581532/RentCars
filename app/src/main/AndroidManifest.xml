@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,7 +9,54 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.RentCars"
-        tools:targetApi="31" />
+        android:theme="@style/Theme.RentCars.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".vehicleOwner.VehicleOwnerAddedActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vehicleOwner.VehicleOwnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".vehicleOwner.VehicleOwnerAddVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customer.ViewVehiclesActivityCustomListView"
+            android:exported="false"
+            android:label="@string/title_activity_customer_view_vehicles_custom_list_view"
+            android:theme="@style/Theme.RentCars.NoActionBar" />
+        <activity
+            android:name=".customer.ViewVehiclesActivityVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".customer.BookingDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customer.ViewVehiclesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customer.ViewSupportActivity"
+            android:exported="false"
+            android:label="@string/title_activity_customer_view_support"
+            android:theme="@style/Theme.RentCars.NoActionBar" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".driver.DriverHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".customer.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>

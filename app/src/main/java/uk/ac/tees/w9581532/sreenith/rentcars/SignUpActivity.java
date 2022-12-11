@@ -89,9 +89,9 @@ public class SignUpActivity extends AppCompatActivity {
                 } else {
 
                     //regex to check if the number is valid
-                    String regexPattern = "^\\d{10}$";
+                    String regexPattern = "^\\d{11}$";
                     if(!Pattern.compile(regexPattern).matcher(mobileNo.getText().toString()).matches()){
-                        Toast.makeText(getApplicationContext(), "Enter a valid Mobile Number", Toast.LENGTH_LONG).show();
+                        Toast.makeText(getApplicationContext(), "Enter a 11 digits Mobile Number with 0 first", Toast.LENGTH_LONG).show();
                         return;
                     }
                 }

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginBottom="26dp"
-        android:text="Loading..."
+        android:text="@string/loading"
         app:layout_constraintBottom_toTopOf="@+id/bookingdaysleft"
         app:layout_constraintStart_toStartOf="@+id/bookingdaysleft" />
 
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:layout_marginBottom="22dp"
-        android:text="Loading..."
+        android:text="@string/loading"
         app:layout_constraintBottom_toTopOf="@+id/btn_viewBooking"
         app:layout_constraintStart_toStartOf="@+id/btn_viewBooking" />
 

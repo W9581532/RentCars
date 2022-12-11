@@ -25,7 +25,7 @@
             android:layout_marginStart="120dp"
             android:layout_marginTop="30dp"
             android:layout_marginEnd="127dp"
-            android:text="Delete Vehicle"
+            android:text="@string/delete_vehicle"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="Log out"
+            android:text="@string/logout"
             app:layout_constraintEnd_toEndOf="@+id/textView_greeting"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/textView_greeting"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:layout_marginEnd="-50dp"
-            android:text="Vehicle Details"
+            android:text="@string/vehicle_details"
             app:layout_constraintEnd_toEndOf="@+id/button_logout"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/button_logout"
@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="25dp"
-            android:text="Vehicle"
+            android:text="@string/vehicle"
             app:layout_constraintStart_toStartOf="@+id/textView15"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Category"
+            android:text="@string/category"
             app:layout_constraintStart_toStartOf="@+id/textView38"
             app:layout_constraintTop_toBottomOf="@+id/textView38" />
 
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Description"
+            android:text="@string/description"
             app:layout_constraintStart_toStartOf="@+id/textView37"
             app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
@@ -137,7 +137,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Model"
+            android:text="@string/model"
             app:layout_constraintStart_toStartOf="@+id/textView36"
             app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
@@ -146,7 +146,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Price"
+            android:text="@string/price"
             app:layout_constraintStart_toStartOf="@+id/textView35"
             app:layout_constraintTop_toBottomOf="@+id/textView35" />
 
@@ -155,7 +155,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Availability"
+            android:text="@string/availability"
             app:layout_constraintStart_toStartOf="@+id/textView39"
             app:layout_constraintTop_toBottomOf="@+id/textView39" />
 

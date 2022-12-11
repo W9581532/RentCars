@@ -23,6 +23,7 @@ import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
+import uk.ac.tees.w9581532.sreenith.rentcars.MapsActivity;
 import uk.ac.tees.w9581532.sreenith.rentcars.R;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.common.api.ResolvableApiException;
@@ -53,7 +54,8 @@ public class ViewSupportActivity extends AppCompatActivity {
     Button button_location;
     TextView txt_location;
     LocationRequest locationRequest;
-
+    double latitude = 0;
+    double longitude = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,6 +72,10 @@ public class ViewSupportActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 getCurrentLocation();
+                Intent intent = new Intent(ViewSupportActivity.this, MapsActivity.class);
+                intent.putExtra("latitude",latitude);
+                intent.putExtra("longitude",longitude);
+                startActivity(intent);
             }
         });
     }
@@ -82,6 +88,7 @@ public class ViewSupportActivity extends AppCompatActivity {
             if (grantResults[0] == PackageManager.PERMISSION_GRANTED){
                 if (isGPSEnabled()) {
                     getCurrentLocation();
+
                 } else {
                     turnOnGPS();
                 }
@@ -116,9 +123,9 @@ public class ViewSupportActivity extends AppCompatActivity {
                                 int index = locationResult.getLocations().size() - 1;
 
                                 //getting coordinates
-                                double latitude = locationResult.getLocations().get(index).getLatitude();
-                                double longitude = locationResult.getLocations().get(index).getLongitude();
-
+                                 latitude = locationResult.getLocations().get(index).getLatitude();
+                                 longitude = locationResult.getLocations().get(index).getLongitude();
+                                System.out.println("Current location: "  + latitude + " - " + longitude);
                                 //converting coordinates to an address
                                 Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
                                 try {
@@ -130,8 +137,6 @@ public class ViewSupportActivity extends AppCompatActivity {
                                     addresses = geocoder.getFromLocation(latitude, longitude, 1);
 
                                     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-
-
 
                                     //creating the address hashmap to extract the necessary info from the address list
                                     Map<String, Object> Address = new HashMap<>();

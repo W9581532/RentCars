@@ -13,7 +13,7 @@
         android:layout_marginStart="-75dp"
         android:layout_marginTop="200dp"
         android:layout_marginEnd="84dp"
-        android:text="User details"
+        android:text="@string/user_details"
         app:layout_constraintEnd_toEndOf="@+id/textView24"
         app:layout_constraintStart_toStartOf="@+id/textView24"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Email"
+        android:text="@string/email"
         app:layout_constraintStart_toStartOf="@+id/textView21"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
@@ -52,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Mobile no."
+        android:text="@string/mobile_no"
         app:layout_constraintStart_toStartOf="@+id/textView19"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="39dp"
         android:layout_marginTop="20dp"
-        android:text="Full name"
+        android:text="@string/full_name"
         app:layout_constraintStart_toStartOf="@+id/textView27"
         app:layout_constraintTop_toBottomOf="@+id/textView27" />
 
@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Logout"
+        android:text="@string/logout"
         app:layout_constraintEnd_toEndOf="@+id/btn_seebookingordelleteuser"
         app:layout_constraintStart_toStartOf="@+id/btn_seebookingordelleteuser"
         app:layout_constraintTop_toBottomOf="@+id/btn_seebookingordelleteuser" />

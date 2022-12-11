@@ -29,4 +29,9 @@
     <string name="log_out">Log out</string>
     <string name="delete_account">Delete Account</string>
     <string name="your_job">Your job</string>
+    <string name="user_details">User details</string>
+    <string name="email">Email</string>
+    <string name="mobile_no">Mobile no.</string>
+    <string name="full_name">Full name</string>
+    <string name="logout">Logout</string>
 </resources>

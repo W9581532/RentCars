@@ -60,4 +60,6 @@
     <string name="login">Login</string>
     <string name="remember_me">Remember me</string>
     <string name="available">Available?</string>
+    <string name="title_activity_splash_page">SplashPage</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>

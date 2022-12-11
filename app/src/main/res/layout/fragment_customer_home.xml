@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="view vehicles"
+        android:text="@string/view_vehicles"
         app:layout_constraintStart_toStartOf="@+id/textView_greeting"
         app:layout_constraintTop_toBottomOf="@+id/textView_greeting" />
 
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="create booking"
+        android:text="@string/create_booking"
         app:layout_constraintStart_toStartOf="@+id/button_viewVehicles"
         app:layout_constraintTop_toBottomOf="@+id/button_viewVehicles" />
 </androidx.constraintlayout.widget.ConstraintLayout>

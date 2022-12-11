@@ -34,4 +34,15 @@
     <string name="mobile_no">Mobile no.</string>
     <string name="full_name">Full name</string>
     <string name="logout">Logout</string>
+    <string name="view_breakdown_support_information">view breakdown support information</string>
+    <string name="view_your_booking">view your booking</string>
+    <string name="view_vehicles">view vehicles</string>
+    <string name="create_booking">create booking</string>
+    <string name="booked_date">Booked Date</string>
+    <string name="address">Address</string>
+    <string name="end_date">End date</string>
+    <string name="driver">Driver</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="booking_form">Booking Form</string>
+    <string name="vehicle">Vehicle</string>
 </resources>

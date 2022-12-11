@@ -21,7 +21,7 @@
         android:layout_width="275dp"
         android:layout_height="54dp"
         android:layout_marginTop="20dp"
-        android:text="view breakdown support information"
+        android:text="@string/view_breakdown_support_information"
         app:layout_constraintStart_toStartOf="@+id/btn_viewBooking"
         app:layout_constraintTop_toBottomOf="@+id/btn_viewBooking" />
 
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="142dp"
-        android:text="view your booking"
+        android:text="@string/view_your_booking"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
